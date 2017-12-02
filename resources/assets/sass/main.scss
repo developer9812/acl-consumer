@@ -1,0 +1,26 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import "./node_modules/font-awesome/scss/font-awesome.scss";
+@import "./node_modules/bulma/sass/utilities/initial-variables";
+
+$family-serif: "Merriweather", "Georgia", serif;
+
+$primary: rgba(227, 74, 26, 0.88);
+// $primary: rgb(64, 83, 161);
+// $primary: rgba(255, 77, 0, 0.85);
+$primary-invert: whitesmoke;
+
+// $family-primary: "Raleway", sans-serif;
+// $family-primary: 'Ubuntu', sans-serif;
+$family-primary: 'Source Sans Pro', sans-serif;
+
+@import './node_modules/bulma/bulma.sass';
+
+$primary-color: rgba(227, 74, 26, 0.88);
+// $primary: rgba(255, 77, 0, 0.85);
+
+html, body, #app, .app {
+  height: 100%;
+}
